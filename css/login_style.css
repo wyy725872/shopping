@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#head{
+	width: 100%;
+	background: #1d7ad9;
+	height: 84px;
+	margin-bottom: 10px;
+}
+#head_content{
+	width: 460px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+#head_content ul li{
+	list-style: none;
+	float: left;
+	width: 115px;
+	height: 59px;
+	color: white;
+	font-size: 22px;
+	font-family: "微软雅黑";
+	line-height: 59px;
+	margin-right: 20px;
+}
+#login_box{
+	width: 360px;
+	height: 288px;
+	border: 1px solid #e1e1e1;
+	padding-top: 30px;
+	padding-left: 84px;
+	margin: 0 auto;
+	
+}
+#login_box p{
+	font-size: 14px;
+	color: #999;
+	margin-top: 10px;
+}
+#user_in{
+	border: 1px solid #e1e1e1;
+	width: 290px;
+	height: 12px;
+	padding-top:  10px;
+	padding-bottom: 10px;
+	padding-left: 3px;
+	padding-right: 10px;
+	background: url(../images/user.png) no-repeat right;
+}
+#user_pwd{
+	border: 1px solid #e1e1e1;
+	width: 290px;
+	height: 12px;
+	padding-top:  10px;
+	padding-bottom: 10px;
+	padding-left: 3px;
+	padding-right: 10px;
+	background: url(../images/pass.png) no-repeat right;
+}
+#small li{
+	list-style:none;
+	float: left;
+	font-style: 14px;
+	margin-top: 24px;
+	margin-right: 15px;
+	margin-bottom: 22px;
+
+}
+#small li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: black;
+}
+#lg_button{
+	clear: both;
+	display: block;
+	width: 309px;
+	height: 36px;
+	
+	background: url(../images/login_button.png) no-repeat;
+}
+h5{
+	margin-top: 30px;
+	color: #999;
+}
+#pat .un{
+	list-style: none;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	background: url(../images/line.png) no-repeat right;
+}
+#special{
+	width: 50px;
+}
+#pat li a{
+	color: #000;
+	text-decoration: none;
+}
+#more{
+	list-style: none;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+}
+#now{
+	clear: both;
+	display: block;
+	width: 115px;
+	height: 31px;
+	margin: 0 auto;
+	bottom: 0;right: 100px;
+	background: url(../images/now.png) no-repeat;
+}

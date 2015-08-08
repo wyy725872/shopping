@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>结算页</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/sell_style.css">
+	<script type="text/javascript" src="js/ajax.js"></script>
+	<script type="text/javascript" src="js/setHomeSetFav.js"  charset="gb2312"></script>
+	<script type="text/javascript" src="js/sell_script.js"></script>
+</head>
+<body>
+<!-- 头部开始 -->
+<div id="header">
+	<div id ="head_content">
+	<ul id="head_ul">
+		<li id="first" onclick="AddFavorite(window.location,document.title)"><img src="images/ys.png">收藏慕课</li>
+		<li id="welcome">欢迎来到慕课网！</li>
+		<li>[<a href="login.html">登录</a>]</li>
+		<li>[<a href="sign_up.html">免费注册</a>]</li>
+		</ul>
+	</div>
+	<div id="head_menu">
+		<div id="menu">
+			<ul>
+				<li><img src="images/logo.png"></li>
+				<li id="sp_li"><img src="images/liucheng.png" height="43" width="399" alt=""></li>
+			</ul>
+		</div>
+		
+	</div>
+</div>
+
+<!-- 头部 结束-->
+<div id="box">
+<!-- 收货信息部分开始 -->
+<div class="message">
+	<li class="eli">收货信息</li>
+	<ul>
+	<li>
+	<span class="star">*</span>选择地区：
+	<select >
+		<option value="">北京市 海淀区 五环内</option>
+		<option value="">西安市 长安区 西安邮电大学</option>
+		<option value="">西安市 雁塔区 五环内</option>
+		<option value="">西安市 碑林区 三环内</option>
+	
+	</select>
+	</li>
+	<li>
+	<span class="star">*</span>详细地址：
+	<input type="text">
+	</li>
+	<li>
+	<span class="star">*</span> 收 货 人：
+	<input type="text" >
+	</li>
+	<li>
+	<span class="star">*</span>  手 机 ： &nbsp;&nbsp;
+	<input type="text" />或固定电话：<input type="text" value="区号" >-<input type="text" value="电话号码" >-<input type="text" value="分机号（可选）" >
+	</li>
+	<li ><a href="#"><img  class="spimg" src="images/sure.png" height="28" width="114" alt=""></a></li>
+	</ul>
+</div>
+<!-- 收货信息部分结束 -->
+
+
+<!-- 支付方式部分开始 -->
+<div class="message">
+	<li class="eli">支付方式</li>
+	<ul>
+	<li>
+	<input type="radio" name="money">&nbsp;微信支付<img src="images/weixin.png" height="20" width="31" alt=""><span>用微信扫一扫就能支付！</span>
+	</li>
+	<li>
+	<input type="radio" name="money">&nbsp;货到付款<span>送货上门后再付款，使用现金或刷银行卡。</span>
+	</li>
+	
+	</ul>
+</div>
+<!-- 支付方式部分结束 -->
+
+<!-- 发票信息部分开始 -->
+<div class="message">
+	<li class="eli">发票信息</li>
+	<ul>
+	<li>
+	<input type="checkbox" name="" value="">需要发票
+	</li>
+	<li>
+	<span class="star">*</span>发票类型：
+	<select >
+		<option value="">商业零售发票</option>
+		<option value="">增值税专用发票</option>
+		<option value="">增值税普通发票</option>
+	</select>
+	</li>
+	<li>
+	<span class="star">*</span>发票抬头：
+	<select >
+		<option value="">个人</option>
+		<option value="">企业</option>
+		<option value="">其他</option>
+	</select>
+	<input type="text" value="阿斯顿">
+	</li>
+	<li ><a href="#"><img src="images/save.png" height="24" width="65"  class="spimg"></a><a href="#"><img src="images/cancel.png" height="24" width="65"  class="spimg"></a></li>
+	</ul>
+</div>
+<!-- 发票信息部分结束-->
+
+<!-- 送货清单部分开始-->
+<div class="message">
+	<li class="eli">送货清单<a href="detailed.html" id="bb">返回购物车修改</a></li>
+	<ul>
+	<li class="lb">
+		<ul id="flt">
+			<li id="pli">商品名称</li>
+			<li>单价</li>
+			<li>返现</li>
+			<li>数量</li>
+			<li>小计</li>
+		</ul>
+	</li>
+	<li id="come"></li>
+	<li>
+		<label class="sll">如有要求请留言备注<input type="text/submit/hidden/button/etc" id="siii" value=""></label>
+	</li>
+	</ul>
+</div>
+<!-- 送货清单部分结束 -->
+
+<!-- 订单结算部分开始 -->
+<div class="message">
+	<li class="eli">订单结算</li>
+	<ul>
+	<li>
+	<span class="big">共计：<span id="mmy"></span></span>
+	</li>
+	<li ><a href="#"><img  class="tjdd" src="images/tjdd.png" alt=""></a></li>
+	</ul>
+</div>
+<!-- 订单结算部分结束 -->
+</div>
+
+
+<!-- 尾部开始 -->
+<div id="foot">
+	<div id="ft_content">
+		<ul id="uu">
+			<li class="is">慕课简介</li>
+			<li class="is">慕课公告</li>
+			<li class="is">招贤纳士</li>
+			<li class="is">联系我们</li>
+			<li id="ss">客服热线：188-292-72634</li>
+		</ul>
+		<ul id="ua">
+			<li>Copyright&copy; 2006-2014 慕课版权所有 </li>
+			<li>京ICP备09037834号</li>
+			<li>京ICP证B1034-8373号</li>
+			<li>某市公安局xx分局备案编号：123456789</li>
+		</ul>
+		<ul id="up">
+			<li><img src="images/web.png" height="46" width="128" alt=""></li>
+			<li><img src="images/web.png" height="46" width="128" alt=""></li>
+			<li><img src="images/web.png" height="46" width="128" alt=""></li>
+			<li><img src="images/web.png" height="46" width="128" alt=""></li>
+		</ul>
+	</div>
+</div>
+
+</body>
+</html>

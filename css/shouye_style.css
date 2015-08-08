@@ -1,0 +1,318 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+
+#header{
+	width: 100%;
+	height: 31px;
+	background: #f7f7f7;
+}
+#header li{
+	list-style: none;
+	float: left;
+}
+#head_content{
+	margin: 0 auto;
+	width: 1000px;
+	height: 21px;
+	padding-top: 10px;
+}
+#first{
+	font-weight: bold;
+}
+#head_ul li{
+	float: left;
+	list-style: none;
+	font-size: 10px;
+	color: #666;
+	font-family: "微软雅黑";
+}
+#welcome{
+	margin-left: 700px;
+}
+#head_menu{
+	width: 100%;
+	background: #1d7ad9;
+	height: 86px;
+	vertical-align: center;
+}
+#menu{
+	width: 1000px;
+	margin:0 auto;
+	height: 70px;
+	padding-top: 15px;
+}
+#text{
+	width: 360px;
+	height: 31px;
+	margin-left: 84px;
+	margin-top: 10px;
+	text-indent: 4px;
+}
+#sp_li{
+	margin-right: 32px;
+}
+#sp_li img{
+	vertical-align: middle;
+	margin-top:-1px;
+}
+#sp_car img{
+	margin-top: 10px;
+	vertical-align: middle;
+}
+#menu_sec{
+	width: 100%;
+	background: #1369c0;
+	height: 35px;
+
+}
+#menu_content{
+	width: 1000px;
+	height: 35px;
+	margin: 0 auto;
+	
+}
+#s_li{
+	width: 190px;
+	text-align: center;
+	line-height: 35px;
+}
+#menu_content ul .li{
+	width: 100px;
+	text-align: center;
+	line-height: 35px;
+}
+#menu_content ul li a{
+	color: white;
+}
+#menu_content ul li:hover{
+	background: #4593fd;
+}
+
+/* 头部css样式 */
+#sec_list{
+	width: 1000px;
+	margin:  120px auto;
+	position: relative;
+}
+#sec_list_content{
+	width: 188px;
+	height: 325px;
+	background: #4593fd;
+	float: left;
+}
+
+.sec_div{
+	background: #4593fd;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 13px;
+	color: #f6f9ff;
+}
+.sec_div .iis{
+	margin-left: 16px;
+}
+.si{
+	float: right;
+	margin-right: 14px;
+
+}
+.sec_div p{
+	color: #c2d9f8;
+	margin-top: 4px;
+	font-size: 12px;
+}
+#sec_ul li{
+	list-style: none;
+	padding-top: 5px;
+	height: 55px;
+	border-bottom: 1px solid #3487f2;
+}
+#smh{
+	width: 570px;
+	height: 345px;
+	background: white;
+	z-index: 10;
+	position: absolute;
+	top:0px;
+	left: 188px;
+	padding: 15px 20px;
+	font-size: 12px;
+	border: 1px solid #e5e5e5;
+	display: none;
+}
+#smh li{
+	margin-left: 10px;
+}
+.show{
+	border-bottom: 1px solid #e5e5e5;
+	padding-top: 10px;
+
+}
+.strong{
+	color: #4b88da;
+	font-size: 12px;
+	font-weight: bold;
+	height: 30px;
+	
+}
+.show li{list-style: none;
+	float: left;
+	
+}
+.show1{
+	
+	height: 33px;
+}
+.show2{
+	height: 50px;
+}
+.show li a:hover{
+	color: #ff7300;
+}
+.sd{
+	margin-top: 15px;
+}
+.sd img{
+	margin-right: 20px;
+}
+.big{
+	clear:both;
+	width: 1000px;
+	height: 455px;
+	margin:-100px  auto ;
+	/* border:1px solid red; */
+}
+.big li{
+	list-style:none;
+}
+#rowd{
+	width:1000px;
+	height:55px;
+}
+#rowd ul li{
+	float:left;
+	font-family:"微软雅黑";
+}
+#li_s{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+#li_ss{
+	margin-left: 800px;
+	margin-top: 40px;
+	font-size: 10px;
+	color: #000;
+}
+#squ{
+	width: 1000px;
+	height: 400px;
+}
+#spe{
+	width: 190px;
+	height: 399px;
+	float: left;
+	background: url(../images/pic.png);
+}
+#spd{
+	width: 190px;
+	height: 399px;
+	float: left;
+	background: url(../images/food.png);
+}
+.ssq{	float: left;
+	width: 200px;
+	height: 395px;
+	border-bottom: 4px solid #ff7201;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.unt{
+	width: 185px;
+	height: 232px;
+	padding-top: 42px;
+	padding-left: 16px;
+	border-bottom: 1px solid #ccc;
+	
+}
+.unb{
+	width: 184px;
+	height:95px;
+	padding-left: 16px;
+	padding-top: 25px;
+
+	
+}
+.unt h4{
+	margin-top: 10px;
+
+}
+.unt span{
+	color: #ff7201;
+	margin-left: 30px;
+}
+.ssq p{
+	font-size: 13px;
+	color: #ff7201;
+	margin-bottom: 10px;
+	text-indent: 10px;
+}
+.unb img{
+	float: left;
+}
+#foot{
+	width: 100%;
+	height: 220px;
+	padding-top: 50px;
+	margin: 150px auto 10px;
+	background: #d4d4d4;
+}
+
+#ft_content{
+	width: 735px;
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+#uu{
+	margin: 0 150px;
+}
+#uu li{
+	float: left;
+	list-style:none;
+	margin: 10px auto;
+	padding-right: 4px;
+	padding-left: 4px;
+	/* width: 80px; */
+	font-size: 8px;
+	text-align: center;
+}
+.is{
+	border-right: 1px solid #000;
+}
+#ua{
+	width: 100%;
+	list-style:none;
+	float: left;
+	font-size: 9px;
+}
+#ua li{
+	margin-top: 5px;
+}
+#up{
+	text-align: center;
+	width: 100%;
+}
+#up li{
+	float: left;
+	list-style: none;
+	margin-left: 40px;
+	text-align: center;
+	/* background: url(../images/web.png) no-repeat; */
+}
